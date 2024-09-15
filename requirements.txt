@@ -5,5 +5,4 @@ pyreadstat
 datetime
 numpy
 pytz
-csv
 readsav
