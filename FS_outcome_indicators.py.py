@@ -14,9 +14,6 @@ import pytz
 import csv
 from scipy.io import readsav
 
-# Change the current working directory
-os.chdir('C:/WORK/PERSONAL/MACHINE LEARNING/STREAMLIT PROJECTS/FS_OUTCOME_INDICATORS')
-
 # Reading the mVAM data for use
 cols = ['UserId', 'ObsDate', 'ADMIN1Name', 'ADM2', 'Location', 'Main_livelihood_zone', 'Year', 'Month', 'FCS',
         'FCSCat28','rCSI','rCSI_cat','HHS','HHS_IPC','Max_coping_behaviour']
